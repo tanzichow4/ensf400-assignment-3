@@ -14,6 +14,8 @@ Verify that it worked by running ```bash kubectl get pods``` and ```bash kubectl
 # Step 3 - Running
 Run the curl command by using ```bash curl http://$(minikube ip)/```
 Running this multiple times should show the ratio of 7:3.
+Your output should look similar to this:
+![alt text](<Screenshot 2024-04-08 at 4.29.05 PM.png>)
 
 # Step Four - Cleaning
 Clear all pods by running ```bash kubectl delete -f .```
