@@ -15,4 +15,4 @@ spec:
           service:
             name: app-2-svc
             port:
-              number: 8001
+              number: 8080

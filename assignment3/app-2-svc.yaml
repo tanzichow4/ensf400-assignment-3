@@ -4,9 +4,9 @@ metadata:
   name: app-2-svc
 spec:
   selector:
-    app: app-2
+    app: app
+    version: v2
   ports:
-    - protocol: TCP
-      port: 8001
-      targetPort: 8000
-  type: ClusterIP
+  - protocol: TCP
+    port: 8080
+    targetPort: 3000
